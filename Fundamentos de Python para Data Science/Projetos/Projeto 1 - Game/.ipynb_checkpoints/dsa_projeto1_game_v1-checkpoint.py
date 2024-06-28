@@ -4,7 +4,7 @@
 import random
 from os import system, name
 
-# Função para limpar a tela a cada execução
+# Função para limar a tela a cada execução
 def limpa_tela():
  
     # Windows
@@ -32,7 +32,7 @@ def game():
     letras_descobertas = ['_' for letra in palavra]
 
     # Número de chances
-    chances = len(palavra)
+    chances = 6
 
     # Lista para as letras erradas
     letras_erradas = []
