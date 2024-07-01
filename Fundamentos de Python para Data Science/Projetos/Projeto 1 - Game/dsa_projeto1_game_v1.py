@@ -32,7 +32,7 @@ def game():
     letras_descobertas = ['_' for letra in palavra]
 
     # Número de chances
-    chances = len(palavra)
+    chances = len(palavra) + 3
 
     # Lista para as letras erradas
     letras_erradas = []
